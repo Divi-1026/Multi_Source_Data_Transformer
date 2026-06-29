@@ -1,0 +1,11 @@
+Candidate: Aman Patel (aman.patel@example.com)
+Strong in machine learning and deep learning. Also writes JavaScript well.
+Currently a data intern at GetPost Labs.
+GitHub: github.com/amanpatel
+
+---
+
+Candidate: Riya Sharma
+Email: riya@example.com
+Solid backend engineer, good with databases and system design.
+LinkedIn: linkedin.com/in/riyasharma

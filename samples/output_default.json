@@ -1,0 +1,279 @@
+[
+  {
+    "candidate_id": "cand_8ec6243ce8",
+    "full_name": "Aman Patel",
+    "emails": [
+      "aman.patel@example.com"
+    ],
+    "phones": [
+      "+919876543210"
+    ],
+    "location": {
+      "city": "Gorakhpur",
+      "region": null,
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": null,
+      "github": "https://github.com/amanpatel",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Data Science Intern",
+    "years_experience": 1,
+    "skills": [
+      {
+        "name": "Python",
+        "confidence": 0.95,
+        "sources": [
+          "ats_json",
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "React",
+        "confidence": 0.95,
+        "sources": [
+          "ats_json",
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Pandas",
+        "confidence": 0.85,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "SQL",
+        "confidence": 0.8,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Machine Learning",
+        "confidence": 0.55,
+        "sources": [
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "Deep Learning",
+        "confidence": 0.55,
+        "sources": [
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "confidence": 0.55,
+        "sources": [
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "Java",
+        "confidence": 0.55,
+        "sources": [
+          "recruiter_notes"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "GetPost Labs",
+        "title": "Data Science Intern",
+        "start": "2024-03",
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "years_experience",
+        "source": "ats_json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "location.city",
+        "source": "ats_json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "location.country",
+        "source": "ats_json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "phones",
+        "source": "ats_json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "links.github",
+        "source": "recruiter_notes",
+        "method": "text_extraction"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json+recruiter_csv+recruiter_notes",
+        "method": "merge_union"
+      },
+      {
+        "field": "experience",
+        "source": "ats_json",
+        "method": "ats_field_map"
+      }
+    ],
+    "overall_confidence": 0.79
+  },
+  {
+    "candidate_id": "cand_79981e8777",
+    "full_name": "Riya Sharma",
+    "emails": [
+      "riya@example.com"
+    ],
+    "phones": [
+      "+919123456789"
+    ],
+    "location": {
+      "city": "Bengaluru",
+      "region": null,
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/riyasharma",
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Senior Backend Engineer",
+    "years_experience": 4,
+    "skills": [
+      {
+        "name": "Java",
+        "confidence": 0.95,
+        "sources": [
+          "ats_json",
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Spring Boot",
+        "confidence": 0.85,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "Spring",
+        "confidence": 0.8,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "confidence": 0.8,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "System Design",
+        "confidence": 0.55,
+        "sources": [
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "Databases",
+        "confidence": 0.55,
+        "sources": [
+          "recruiter_notes"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "TechCorp",
+        "title": "Senior Backend Engineer",
+        "start": "2021-06",
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "years_experience",
+        "source": "ats_json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "location.city",
+        "source": "ats_json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "location.country",
+        "source": "ats_json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "phones",
+        "source": "ats_json",
+        "method": "ats_field_map"
+      },
+      {
+        "field": "links.linkedin",
+        "source": "recruiter_notes",
+        "method": "text_extraction"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json+recruiter_csv+recruiter_notes",
+        "method": "merge_union"
+      },
+      {
+        "field": "experience",
+        "source": "ats_json",
+        "method": "ats_field_map"
+      }
+    ],
+    "overall_confidence": 0.81
+  }
+]

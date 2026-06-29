@@ -1,0 +1,4 @@
+name,email,phone,company,title,location,skills
+Aman Patel,aman.patel@example.com,+91 98765 43210,GetPost Labs,Data Intern,Gorakhpur India,"Python, ReactJS, SQL"
+Riya Sharma,riya@example.com,9123456789,TechCorp,Backend Engineer,Bangalore India,"Java, Spring, JS"
+,,,,,,

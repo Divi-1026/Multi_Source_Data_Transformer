@@ -1,0 +1,26 @@
+[
+  {
+    "candidateName": "Aman Patel",
+    "primaryEmail": "aman.patel@example.com",
+    "mobile": "098765 43210",
+    "currentEmployer": "GetPost Labs",
+    "jobTitle": "Data Science Intern",
+    "since": "Mar 2024",
+    "skillTags": ["python", "react", "pandas"],
+    "city": "Gorakhpur",
+    "country": "India",
+    "experienceYears": 1
+  },
+  {
+    "candidateName": "Riya Sharma",
+    "primaryEmail": "riya@example.com",
+    "mobile": "+91 91234 56789",
+    "currentEmployer": "TechCorp",
+    "jobTitle": "Senior Backend Engineer",
+    "since": "2021-06",
+    "skillTags": ["java", "spring boot"],
+    "city": "Bengaluru",
+    "country": "India",
+    "experienceYears": 4
+  }
+]
