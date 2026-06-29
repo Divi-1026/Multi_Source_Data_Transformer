@@ -4,29 +4,23 @@ Turns messy candidate data from several sources into **one clean, canonical
 profile per person** — normalized formats, deduplicated, with a record of where
 every value came from (`provenance`) and how confident we are (`confidence`).
 
-Built for the Eightfold Engineering Intern assignment. Pure Python standard
-library — **no external dependencies, no network needed**.
-
 ## Sources handled
 
 | Source | Group | Notes |
 |---|---|---|
 | Recruiter CSV (`samples/recruiter.csv`) | structured | name, email, phone, company, title, location, skills |
 | ATS JSON (`samples/ats.json`) | structured | uses its own field names → remapped to canonical |
-| Recruiter notes (`samples/notes.txt`) | unstructured | free text → regex / keyword extraction |
+| Recruiter notes (`samples/notes.txt`) | unstructured | free text →  keyword extraction |
 
-(Assignment needs ≥1 structured + ≥1 unstructured; this ships all three so the
-merge + conflict resolution is actually visible.)
+(Include two structured source and 1 unstructured source)
 
 ## How to run
-
 Requires Python 3.8+. No install step.
-
 ```bash
 # Default canonical schema, all three sources
 python cli.py --csv samples/recruiter.csv --ats samples/ats.json --notes samples/notes.txt
 
-# Custom output via a runtime config (the "twist")
+# Custom output via a runtime config 
 python cli.py --csv samples/recruiter.csv --ats samples/ats.json --notes samples/notes.txt \
               --config configs/compact.json
 
