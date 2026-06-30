@@ -1,0 +1,2 @@
+python cli.py --csv samples/recruiter.csv --ats samples/ats.json --notes samples/notes.txt --config configs/compact.json
+python cli.py --csv samples/recruiter.csv --ats samples/ats.json --notes samples/notes.txt

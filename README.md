@@ -65,8 +65,7 @@ parse → normalize → merge (+ provenance + confidence) → project (config) �
 A runtime config reshapes the output without touching code. It can select a
 subset of fields, rename/remap from a canonical path (`from`), normalize per
 field, toggle confidence/provenance, and choose missing-value behaviour
-(`null` / `omit` / `error`). Path syntax supports `emails[0]`, `location.city`,
-`skills[].name`. See `configs/compact.json`.
+(`null` / `omit` / `error`).See `configs/compact.json`.
 
 ## Assumptions & descoped
 
